@@ -499,6 +499,7 @@ footer section {
         display: flex;
         justify-content: space-around;
         position: relative;
+        border-bottom: 2px solid #F2F2F2;
     }
     .menu ul a{
         width: 50%;
@@ -586,12 +587,14 @@ footer section {
     }
 
     footer {
+        width: 92%;
         flex-direction: column;
         gap: 50px;
         padding: 30px;
     }
     footer section{
         padding: 0;
+        width: 100%;
     }
     
 }

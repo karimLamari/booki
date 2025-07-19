@@ -495,6 +495,11 @@ footer section {
         padding-bottom: 15px;
         display: flex;
         justify-content: center;
+        width: 100%;
+    }
+    .menu ul li a{
+        display: flex;
+        justify-content: center;
     }
     .menu ul li:hover::before{
         display: none;
@@ -576,6 +581,12 @@ footer section {
     }
     .activites-cards{
         flex-direction: column;
+    }
+    .hebergements-cards{
+        gap: 15px;
+    }
+    .hebergements-and-populaires .populaires{
+        border-radius: 0;
     }
 
     footer {
